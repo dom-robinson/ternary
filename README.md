@@ -174,4 +174,4 @@ I'd love to hear your thoughts and experiences if you try out the demo. What oth
 ## Commercial Bit 
 If you want help building premium, scaled up live streaming workflows and platforms do give me a shout at dom@norsk.video - we have been doing it a loooooong time and have some great tools and software we licence out to developers and systems integrators :)
 
-This article first appeared on my [Linkedin Blog](url)
+This article first appeared on my [Linkedin Blog](https://www.linkedin.com/pulse/exploring-ternary-video-compression-computings-road-taken-robinson-bslge)
