@@ -24,9 +24,7 @@ Transform coding took on an interesting character in the ternary domain. When qu
 
 Let's look at the maths in detail. For a traditional binary quantizer:
 
- $$Q_b(x) = \text{sign}(x) \cdot \left\lfloor\frac{|x|}{q} + 0.5\right\rfloor$$
- 
-**Binary Quantizer**
+$$Q_b(x) = \text{sign}(x) \cdot \left\lfloor\frac{|x|}{q} + 0.5\right\rfloor$$
 
 The term represents the quantization step size. It determines the resolution or precision of the quantization process. Here's a more detailed explanation:
 
@@ -52,8 +50,6 @@ Q_t(x) = \begin{cases}
 \space\space 1 & \text{if } x > t
 \end{cases}
 $$
-
-**Ternary Quantizer**
 
 where t is our threshold value. 
 
@@ -101,9 +97,8 @@ After many iterations, we achieved some intriguing results:
 
 While the binary version maintains higher PSNR (Peak Signal-to-Noise Ratio), our ternary approach achieved comparable compression ratios with an interesting visual characteristic: it tends to preserve strong edges while smoothing areas of subtle variation. 
 
+*The working demo. A short clip of my cats. Because #catvideos :)*
 ![screenshot](screenshot.png)
-
-The working demo. A short clip of my cats. Because #catvideos :)
 
 It's different from traditional compression artifacts - not necessarily better in all cases, but definitely interesting. 
 
@@ -174,7 +169,9 @@ I'd love to hear your thoughts and experiences if you try out the demo. What oth
 
 #ternary #binary #videocompression #encoding
 
---
+
 
 ## Commercial Bit 
 If you want help building premium, scaled up live streaming workflows and platforms do give me a shout at dom@norsk.video - we have been doing it a loooooong time and have some great tools and software we licence out to developers and systems integrators :)
+
+This article first appeared on my [Linkedin Blog](url)
