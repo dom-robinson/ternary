@@ -101,7 +101,7 @@ After many iterations, we achieved some intriguing results:
 
 While the binary version maintains higher PSNR (Peak Signal-to-Noise Ratio), our ternary approach achieved comparable compression ratios with an interesting visual characteristic: it tends to preserve strong edges while smoothing areas of subtle variation. 
 
-![screenshot](imageFolder/screenshot.png)
+![screenshot](screenshot.png)
 
 The working demo. A short clip of my cats. Because #catvideos :)
 
